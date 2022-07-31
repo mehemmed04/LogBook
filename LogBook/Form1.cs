@@ -80,7 +80,7 @@ namespace LogBook
                 }
             };
             int x = 0, y = 0;
-            
+
             foreach (Student student in students)
             {
                 StudentUC studentUC = new StudentUC();
@@ -115,26 +115,48 @@ namespace LogBook
 
         public void selectAllChckBx_CheckedChanged(object sender, EventArgs e)
         {
-            string x = "";
+            bool Buttonchecked = false;
+            if (selectAllChckBx.Checked)
+            {
+                Buttonchecked = true;
+            }
+            else
+            {
+                Buttonchecked = false;
+            }
             foreach (var item in guna2Panel1.Controls)
             {
                 if (item is StudentUC UC)
                 {
+
                     foreach (var item2 in UC.Controls)
                     {
-                        x += (item2.ToString()) + "\n";
-                        if (item2 is Guna.UI2.WinForms.Guna2RadioButton rb)
+                        if (item2 is Guna.UI2.WinForms.Guna2Panel pnl)
                         {
-                            //if (rb.Name == "participatedRdBtn")
-                            //{
-                            //    rb.Checked = true;
-                            //}
-                            
+
+                            foreach (var item3 in pnl.Controls)
+                            {
+                                if (item3 is Guna.UI2.WinForms.Guna2GroupBox grpBx)
+                                {
+                                    foreach (var item4 in grpBx.Controls)
+                                    {
+                                        if (item4 is Guna.UI2.WinForms.Guna2CustomRadioButton cRdBtn)
+                                        {
+                                            if (cRdBtn.Name == "participatedRdBtn")
+                                            {
+                                                cRdBtn.Checked = Buttonchecked;
+
+                                            }
+                                        }
+                                    }
+                                }
+
+                            }
+
                         }
                     }
                 }
             }
-            MessageBox.Show(x);
         }
     }
 }
