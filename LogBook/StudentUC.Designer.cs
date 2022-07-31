@@ -37,32 +37,34 @@
             this.CancelBtn = new Guna.UI2.WinForms.Guna2Button();
             this.CommentRchTxtb = new System.Windows.Forms.RichTextBox();
             this.CommentBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.diamondCancel = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.diamond3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.diamond2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.diamond1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
             this.guna2CustomRadioButton3 = new Guna.UI2.WinForms.Guna2CustomRadioButton();
             this.guna2CustomRadioButton2 = new Guna.UI2.WinForms.Guna2CustomRadioButton();
             this.participatedRdBtn = new Guna.UI2.WinForms.Guna2CustomRadioButton();
+            this.profileimagePctrBx = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.diamondCancel = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.diamond3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.diamond2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.diamond1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel2.SuspendLayout();
             this.CommentGrpBx.SuspendLayout();
+            this.guna2GroupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.profileimagePctrBx)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.diamondCancel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.diamond3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.diamond2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.diamond1)).BeginInit();
-            this.guna2GroupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // idLbl
             // 
             this.idLbl.BackColor = System.Drawing.Color.White;
             this.idLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.idLbl.Location = new System.Drawing.Point(24, 32);
+            this.idLbl.Location = new System.Drawing.Point(3, 56);
             this.idLbl.Name = "idLbl";
             this.idLbl.Size = new System.Drawing.Size(31, 23);
             this.idLbl.TabIndex = 0;
@@ -91,7 +93,8 @@
             this.guna2Panel2.BackColor = System.Drawing.Color.White;
             this.guna2Panel2.BorderColor = System.Drawing.Color.DeepSkyBlue;
             this.guna2Panel2.BorderThickness = 1;
-            this.guna2Panel2.Controls.Add(this.CommentLbl);
+            this.guna2Panel2.Controls.Add(this.idLbl);
+            this.guna2Panel2.Controls.Add(this.profileimagePctrBx);
             this.guna2Panel2.Controls.Add(this.CommentGrpBx);
             this.guna2Panel2.Controls.Add(this.diamondCancel);
             this.guna2Panel2.Controls.Add(this.guna2PictureBox1);
@@ -103,6 +106,7 @@
             this.guna2Panel2.Controls.Add(this.guna2GroupBox1);
             this.guna2Panel2.Controls.Add(this.dateLbl);
             this.guna2Panel2.Controls.Add(this.nameLbl);
+            this.guna2Panel2.Controls.Add(this.CommentLbl);
             this.guna2Panel2.CustomBorderColor = System.Drawing.Color.DeepSkyBlue;
             this.guna2Panel2.Location = new System.Drawing.Point(0, -24);
             this.guna2Panel2.Name = "guna2Panel2";
@@ -112,10 +116,9 @@
             // 
             // CommentLbl
             // 
-            this.CommentLbl.AutoSize = true;
-            this.CommentLbl.Location = new System.Drawing.Point(1209, 41);
+            this.CommentLbl.Location = new System.Drawing.Point(1200, 41);
             this.CommentLbl.Name = "CommentLbl";
-            this.CommentLbl.Size = new System.Drawing.Size(0, 13);
+            this.CommentLbl.Size = new System.Drawing.Size(156, 38);
             this.CommentLbl.TabIndex = 19;
             // 
             // CommentGrpBx
@@ -170,66 +173,6 @@
             this.CommentBtn.TabIndex = 17;
             this.CommentBtn.Text = "Rəy Yazmaq";
             this.CommentBtn.Click += new System.EventHandler(this.CommentBtn_Click);
-            // 
-            // diamondCancel
-            // 
-            this.diamondCancel.Image = global::LogBook.Properties.Resources.icons8_cross_mark_button_48;
-            this.diamondCancel.ImageRotate = 0F;
-            this.diamondCancel.Location = new System.Drawing.Point(1176, 56);
-            this.diamondCancel.Name = "diamondCancel";
-            this.diamondCancel.Size = new System.Drawing.Size(30, 28);
-            this.diamondCancel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.diamondCancel.TabIndex = 15;
-            this.diamondCancel.TabStop = false;
-            this.diamondCancel.Click += new System.EventHandler(this.diamondCancel_Click);
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.Image = global::LogBook.Properties.Resources.messages_mac;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(1212, 59);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(26, 20);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox1.TabIndex = 14;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
-            // 
-            // diamond3
-            // 
-            this.diamond3.Image = global::LogBook.Properties.Resources.icons8_diamond_48__1_;
-            this.diamond3.ImageRotate = 0F;
-            this.diamond3.Location = new System.Drawing.Point(1144, 59);
-            this.diamond3.Name = "diamond3";
-            this.diamond3.Size = new System.Drawing.Size(26, 20);
-            this.diamond3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.diamond3.TabIndex = 13;
-            this.diamond3.TabStop = false;
-            this.diamond3.Click += new System.EventHandler(this.diamond3_Click);
-            // 
-            // diamond2
-            // 
-            this.diamond2.Image = global::LogBook.Properties.Resources.icons8_diamond_48__1_;
-            this.diamond2.ImageRotate = 0F;
-            this.diamond2.Location = new System.Drawing.Point(1112, 59);
-            this.diamond2.Name = "diamond2";
-            this.diamond2.Size = new System.Drawing.Size(26, 20);
-            this.diamond2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.diamond2.TabIndex = 12;
-            this.diamond2.TabStop = false;
-            this.diamond2.Click += new System.EventHandler(this.diamond2_Click);
-            // 
-            // diamond1
-            // 
-            this.diamond1.Image = global::LogBook.Properties.Resources.icons8_diamond_48__1_;
-            this.diamond1.ImageRotate = 0F;
-            this.diamond1.Location = new System.Drawing.Point(1077, 59);
-            this.diamond1.Name = "diamond1";
-            this.diamond1.Size = new System.Drawing.Size(26, 20);
-            this.diamond1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.diamond1.TabIndex = 11;
-            this.diamond1.TabStop = false;
-            this.diamond1.Click += new System.EventHandler(this.diamond1_Click);
             // 
             // guna2ComboBox2
             // 
@@ -356,23 +299,94 @@
             this.participatedRdBtn.UncheckedState.FillColor = System.Drawing.Color.White;
             this.participatedRdBtn.UncheckedState.InnerColor = System.Drawing.Color.White;
             // 
+            // profileimagePctrBx
+            // 
+            this.profileimagePctrBx.ImageRotate = 0F;
+            this.profileimagePctrBx.Location = new System.Drawing.Point(40, 41);
+            this.profileimagePctrBx.Name = "profileimagePctrBx";
+            this.profileimagePctrBx.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.profileimagePctrBx.Size = new System.Drawing.Size(43, 43);
+            this.profileimagePctrBx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.profileimagePctrBx.TabIndex = 20;
+            this.profileimagePctrBx.TabStop = false;
+            this.profileimagePctrBx.Click += new System.EventHandler(this.profileimagePctrBx_Click);
+            // 
+            // diamondCancel
+            // 
+            this.diamondCancel.Image = global::LogBook.Properties.Resources.icons8_cross_mark_button_48;
+            this.diamondCancel.ImageRotate = 0F;
+            this.diamondCancel.Location = new System.Drawing.Point(1176, 56);
+            this.diamondCancel.Name = "diamondCancel";
+            this.diamondCancel.Size = new System.Drawing.Size(30, 28);
+            this.diamondCancel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.diamondCancel.TabIndex = 15;
+            this.diamondCancel.TabStop = false;
+            this.diamondCancel.Click += new System.EventHandler(this.diamondCancel_Click);
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.Image = global::LogBook.Properties.Resources.messages_mac;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(1212, 59);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(26, 20);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 14;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
+            // 
+            // diamond3
+            // 
+            this.diamond3.Image = global::LogBook.Properties.Resources.icons8_diamond_48__1_;
+            this.diamond3.ImageRotate = 0F;
+            this.diamond3.Location = new System.Drawing.Point(1144, 59);
+            this.diamond3.Name = "diamond3";
+            this.diamond3.Size = new System.Drawing.Size(26, 20);
+            this.diamond3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.diamond3.TabIndex = 13;
+            this.diamond3.TabStop = false;
+            this.diamond3.Click += new System.EventHandler(this.diamond3_Click);
+            // 
+            // diamond2
+            // 
+            this.diamond2.Image = global::LogBook.Properties.Resources.icons8_diamond_48__1_;
+            this.diamond2.ImageRotate = 0F;
+            this.diamond2.Location = new System.Drawing.Point(1112, 59);
+            this.diamond2.Name = "diamond2";
+            this.diamond2.Size = new System.Drawing.Size(26, 20);
+            this.diamond2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.diamond2.TabIndex = 12;
+            this.diamond2.TabStop = false;
+            this.diamond2.Click += new System.EventHandler(this.diamond2_Click);
+            // 
+            // diamond1
+            // 
+            this.diamond1.Image = global::LogBook.Properties.Resources.icons8_diamond_48__1_;
+            this.diamond1.ImageRotate = 0F;
+            this.diamond1.Location = new System.Drawing.Point(1077, 59);
+            this.diamond1.Name = "diamond1";
+            this.diamond1.Size = new System.Drawing.Size(26, 20);
+            this.diamond1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.diamond1.TabIndex = 11;
+            this.diamond1.TabStop = false;
+            this.diamond1.Click += new System.EventHandler(this.diamond1_Click);
+            // 
             // StudentUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.idLbl);
             this.Controls.Add(this.guna2Panel2);
             this.Name = "StudentUC";
             this.Size = new System.Drawing.Size(1420, 80);
             this.guna2Panel2.ResumeLayout(false);
-            this.guna2Panel2.PerformLayout();
             this.CommentGrpBx.ResumeLayout(false);
+            this.guna2GroupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.profileimagePctrBx)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.diamondCancel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.diamond3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.diamond2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.diamond1)).EndInit();
-            this.guna2GroupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -389,9 +403,6 @@
         private Guna.UI2.WinForms.Guna2CustomRadioButton guna2CustomRadioButton2;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
-        private Guna.UI2.WinForms.Guna2PictureBox diamond3;
-        private Guna.UI2.WinForms.Guna2PictureBox diamond2;
-        private Guna.UI2.WinForms.Guna2PictureBox diamond1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2PictureBox diamondCancel;
         private Guna.UI2.WinForms.Guna2GroupBox CommentGrpBx;
@@ -399,5 +410,9 @@
         private Guna.UI2.WinForms.Guna2Button CancelBtn;
         private System.Windows.Forms.RichTextBox CommentRchTxtb;
         private System.Windows.Forms.Label CommentLbl;
+        private Guna.UI2.WinForms.Guna2PictureBox diamond3;
+        private Guna.UI2.WinForms.Guna2PictureBox diamond2;
+        private Guna.UI2.WinForms.Guna2PictureBox diamond1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox profileimagePctrBx;
     }
 }

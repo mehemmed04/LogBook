@@ -26,59 +26,68 @@ namespace LogBook
             {
                 new Student
                 {
-                     Fullname ="Mehemmed Bayramov",
+                     Fullname ="Huseyn Abbasov",
                       EnteredMystat = DateTime.Now,
-                },
-                new Student
-                {
-                     Fullname ="Nurlan Shirinov",
-                      EnteredMystat = DateTime.Now,
-
-                },
-                new Student
-                {
-                     Fullname ="Coshqun Gulmemmedli",
-                      EnteredMystat = DateTime.Now,
-
+                       ProfileImage = Properties.Resources.profileImageDefault
                 },
                 new Student
                 {
                      Fullname ="Ali Ahmedov",
                       EnteredMystat = DateTime.Now,
-
-                },
-                new Student
-                {
-                     Fullname ="Ilkin Suleymanov",
-                      EnteredMystat = DateTime.Now,
+                       ProfileImage = Properties.Resources.profileImageDefault
 
                 },
                 new Student
                 {
                      Fullname ="Ayxan Ahmadzade",
                       EnteredMystat = DateTime.Now,
+                       ProfileImage = Properties.Resources.profileImageDefault
+
+                },
+                new Student
+                {
+                     Fullname ="Mehemmed Bayramov",
+                      EnteredMystat = DateTime.Now,
+                       ProfileImage = Properties.Resources.profileImageDefault
+                },
+                new Student
+                {
+                     Fullname ="Omer Cavanshirov",
+                      EnteredMystat = DateTime.Now,
+                       ProfileImage = Properties.Resources.profileImageDefault
+
+                }
+                ,
+                new Student
+                {
+                     Fullname ="Coshqun Gulmemmedli",
+                      EnteredMystat = DateTime.Now,
+                       ProfileImage = Properties.Resources.profileImageDefault
+
+                },
+                new Student
+                {
+                     Fullname ="Nurlan Shirinov",
+                      EnteredMystat = DateTime.Now,
+                       ProfileImage = Properties.Resources.profileImageDefault
+
+                },
+                new Student
+                {
+                     Fullname ="Ilkin Suleymanov",
+                      EnteredMystat = DateTime.Now,
+                       ProfileImage = Properties.Resources.profileImageDefault
 
                 },
                 new Student
                 {
                      Fullname ="Alirza Zaidov",
                       EnteredMystat = DateTime.Now,
+                       ProfileImage = Properties.Resources.profileImageDefault
 
                 },
-                new Student
-                {
-                     Fullname ="Omer Cavanshirov",
-                      EnteredMystat = DateTime.Now,
-
-                }
-                ,
-                new Student
-                {
-                     Fullname ="Huseyn Abbasov",
-                      EnteredMystat = DateTime.Now,
-
-                }
             };
+          
             int x = 0, y = 0;
 
             foreach (Student student in students)

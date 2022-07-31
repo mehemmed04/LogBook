@@ -31,25 +31,25 @@
             this.groupnameLbl = new System.Windows.Forms.Label();
             this.lessonnameLbl = new System.Windows.Forms.Label();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.guna2RadioButton1 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.guna2RadioButton2 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2RadioButton1 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.propertiesPnl = new Guna.UI2.WinForms.Guna2Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.diamondCountLbl = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.selectAllChckBx = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.diamondCountLbl = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.subjectLessonPctrBx = new Guna.UI2.WinForms.Guna2PictureBox();
             this.LessonSubjectGrpBx = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.SaveBtn = new Guna.UI2.WinForms.Guna2Button();
             this.CancelBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.SaveBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.LessonSubjectLbl = new System.Windows.Forms.Label();
             this.guna2GroupBox1.SuspendLayout();
             this.propertiesPnl.SuspendLayout();
@@ -92,6 +92,24 @@
             this.guna2GroupBox1.Size = new System.Drawing.Size(350, 51);
             this.guna2GroupBox1.TabIndex = 2;
             // 
+            // guna2RadioButton2
+            // 
+            this.guna2RadioButton2.AutoSize = true;
+            this.guna2RadioButton2.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2RadioButton2.CheckedState.BorderThickness = 0;
+            this.guna2RadioButton2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2RadioButton2.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.guna2RadioButton2.CheckedState.InnerOffset = -4;
+            this.guna2RadioButton2.Location = new System.Drawing.Point(152, 17);
+            this.guna2RadioButton2.Name = "guna2RadioButton2";
+            this.guna2RadioButton2.Size = new System.Drawing.Size(133, 19);
+            this.guna2RadioButton2.TabIndex = 1;
+            this.guna2RadioButton2.Text = "Müəllim əvəz olunur";
+            this.guna2RadioButton2.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2RadioButton2.UncheckedState.BorderThickness = 2;
+            this.guna2RadioButton2.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton2.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
             // guna2RadioButton1
             // 
             this.guna2RadioButton1.AutoSize = true;
@@ -114,24 +132,6 @@
             this.guna2RadioButton1.UncheckedState.BorderThickness = 2;
             this.guna2RadioButton1.UncheckedState.FillColor = System.Drawing.Color.Transparent;
             this.guna2RadioButton1.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
-            // 
-            // guna2RadioButton2
-            // 
-            this.guna2RadioButton2.AutoSize = true;
-            this.guna2RadioButton2.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2RadioButton2.CheckedState.BorderThickness = 0;
-            this.guna2RadioButton2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2RadioButton2.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2RadioButton2.CheckedState.InnerOffset = -4;
-            this.guna2RadioButton2.Location = new System.Drawing.Point(152, 17);
-            this.guna2RadioButton2.Name = "guna2RadioButton2";
-            this.guna2RadioButton2.Size = new System.Drawing.Size(133, 19);
-            this.guna2RadioButton2.TabIndex = 1;
-            this.guna2RadioButton2.Text = "Müəllim əvəz olunur";
-            this.guna2RadioButton2.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2RadioButton2.UncheckedState.BorderThickness = 2;
-            this.guna2RadioButton2.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton2.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
             // 
             // label1
             // 
@@ -160,76 +160,6 @@
             this.propertiesPnl.Size = new System.Drawing.Size(1450, 60);
             this.propertiesPnl.TabIndex = 5;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(99, 22);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(161, 16);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Tələbənin Adı, Soyadı";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(341, 22);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(136, 16);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Mystat\'a daxil olub";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(544, 13);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(150, 16);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Hər kəsi qeyd etmək";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(775, 22);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(101, 16);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "Yoxlama işlər";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(955, 22);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(71, 16);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "Sinifdə iş";
-            // 
-            // diamondCountLbl
-            // 
-            this.diamondCountLbl.AutoSize = true;
-            this.diamondCountLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.diamondCountLbl.Location = new System.Drawing.Point(1118, 22);
-            this.diamondCountLbl.Name = "diamondCountLbl";
-            this.diamondCountLbl.Size = new System.Drawing.Size(15, 16);
-            this.diamondCountLbl.TabIndex = 5;
-            this.diamondCountLbl.Text = "5";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(1215, 22);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 16);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "Rəy";
-            // 
             // selectAllChckBx
             // 
             this.selectAllChckBx.AutoSize = true;
@@ -251,14 +181,6 @@
             this.selectAllChckBx.UseVisualStyleBackColor = false;
             this.selectAllChckBx.CheckedChanged += new System.EventHandler(this.selectAllChckBx_CheckedChanged);
             // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.AutoScroll = true;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 230);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1450, 483);
-            this.guna2Panel1.TabIndex = 6;
-            // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.Image = global::LogBook.Properties.Resources.icons8_diamond_48;
@@ -269,6 +191,84 @@
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 6;
             this.guna2PictureBox1.TabStop = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label8.Location = new System.Drawing.Point(1215, 22);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(35, 16);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "Rəy";
+            // 
+            // diamondCountLbl
+            // 
+            this.diamondCountLbl.AutoSize = true;
+            this.diamondCountLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.diamondCountLbl.Location = new System.Drawing.Point(1118, 22);
+            this.diamondCountLbl.Name = "diamondCountLbl";
+            this.diamondCountLbl.Size = new System.Drawing.Size(15, 16);
+            this.diamondCountLbl.TabIndex = 5;
+            this.diamondCountLbl.Text = "5";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(955, 22);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(71, 16);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Sinifdə iş";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(775, 22);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(101, 16);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Yoxlama işlər";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(544, 13);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(150, 16);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Hər kəsi qeyd etmək";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(341, 22);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(136, 16);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Mystat\'a daxil olub";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(99, 22);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(161, 16);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Tələbənin Adı, Soyadı";
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.AutoScroll = true;
+            this.guna2Panel1.Location = new System.Drawing.Point(0, 230);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(1450, 483);
+            this.guna2Panel1.TabIndex = 6;
             // 
             // subjectLessonPctrBx
             // 
@@ -297,13 +297,20 @@
             this.LessonSubjectGrpBx.TabIndex = 7;
             this.LessonSubjectGrpBx.Visible = false;
             // 
-            // richTextBox1
+            // CancelBtn
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(8, 10);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(333, 68);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
+            this.CancelBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.CancelBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.CancelBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.CancelBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.CancelBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.CancelBtn.ForeColor = System.Drawing.Color.White;
+            this.CancelBtn.Location = new System.Drawing.Point(458, 27);
+            this.CancelBtn.Name = "CancelBtn";
+            this.CancelBtn.Size = new System.Drawing.Size(91, 34);
+            this.CancelBtn.TabIndex = 2;
+            this.CancelBtn.Text = "İMTİNA ETMƏK";
+            this.CancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // SaveBtn
             // 
@@ -320,28 +327,20 @@
             this.SaveBtn.Text = "YADDAŞDA SAXLA";
             this.SaveBtn.Click += new System.EventHandler(this.SaveBtn_Click);
             // 
-            // CancelBtn
+            // richTextBox1
             // 
-            this.CancelBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.CancelBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.CancelBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.CancelBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.CancelBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.CancelBtn.ForeColor = System.Drawing.Color.White;
-            this.CancelBtn.Location = new System.Drawing.Point(458, 27);
-            this.CancelBtn.Name = "CancelBtn";
-            this.CancelBtn.Size = new System.Drawing.Size(91, 34);
-            this.CancelBtn.TabIndex = 2;
-            this.CancelBtn.Text = "İMTİNA ETMƏK";
-            this.CancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
+            this.richTextBox1.Location = new System.Drawing.Point(8, 10);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(333, 68);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = "";
             // 
             // LessonSubjectLbl
             // 
-            this.LessonSubjectLbl.AutoSize = true;
             this.LessonSubjectLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LessonSubjectLbl.Location = new System.Drawing.Point(1064, 64);
+            this.LessonSubjectLbl.Location = new System.Drawing.Point(1049, 61);
             this.LessonSubjectLbl.Name = "LessonSubjectLbl";
-            this.LessonSubjectLbl.Size = new System.Drawing.Size(0, 20);
+            this.LessonSubjectLbl.Size = new System.Drawing.Size(389, 26);
             this.LessonSubjectLbl.TabIndex = 8;
             // 
             // Form1
@@ -350,7 +349,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1450, 704);
-            this.Controls.Add(this.LessonSubjectLbl);
             this.Controls.Add(this.LessonSubjectGrpBx);
             this.Controls.Add(this.propertiesPnl);
             this.Controls.Add(this.subjectLessonPctrBx);
@@ -359,6 +357,7 @@
             this.Controls.Add(this.lessonnameLbl);
             this.Controls.Add(this.groupnameLbl);
             this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.LessonSubjectLbl);
             this.Name = "Form1";
             this.Text = "Form1";
             this.guna2GroupBox1.ResumeLayout(false);
